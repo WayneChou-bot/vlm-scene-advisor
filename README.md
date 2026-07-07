@@ -16,7 +16,7 @@ sound the zone alarm), then recovers once the zone is clear.
 ## Demo
 
 🎬 **[Watch the annotated demo video](https://github.com/WayneChou-bot/vlm-scene-advisor/releases/latest)** —
-`annotated_gemini.mp4`: the HUD text is real Gemini 2.5 Flash reasoning, with live
+`annotated_final_v4.mp4`: the HUD text is real Gemini 2.5 Flash reasoning, with live
 per-frame latency shown on screen (not scripted placeholders).
 
 ## How it works

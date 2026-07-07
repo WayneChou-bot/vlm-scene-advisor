@@ -1,0 +1,12 @@
+.env
+data/
+out/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.venv/
+assets/downloads/
+assets/hero_shot_*.png
+assets/warehouse_scene.blend
+assets/*.blend1

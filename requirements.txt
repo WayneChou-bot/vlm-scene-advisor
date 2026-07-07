@@ -1,0 +1,9 @@
+opencv-python>=4.9
+numpy>=1.26
+pydantic>=2.6
+pytest>=8.0
+python-dotenv>=1.0
+# M1+ (Gemini provider)
+google-genai>=1.0
+# optional (live webcam UI)
+# streamlit>=1.35

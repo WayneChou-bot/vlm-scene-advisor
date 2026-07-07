@@ -13,6 +13,7 @@ sound the zone alarm), then recovers once the zone is clear.
 > project demonstrates *explainable operational advisory* on top of (assumed)
 > certified safety systems. No detection-accuracy claims are made.
 
+
 ## Demo
 
 🎬 **[Watch the annotated demo video]**
@@ -21,6 +22,7 @@ https://github.com/user-attachments/assets/f9957fb3-e9d5-4e8d-806f-6ab86bbe8871
 
 ※ the HUD text is real Gemini 2.5 Flash reasoning, with live
 per-frame latency shown on screen (not scripted placeholders).
+
 
 ## How it works
 
@@ -52,6 +54,7 @@ Two design principles:
    the deterministic layer, not in the model's judgment (see the prompt-iteration
    notes below).
 
+
 ## Prompt iterations — what actually happened
 
 | Run | Change | Result |
@@ -63,6 +66,7 @@ Two design principles:
 Constant across all runs: 16/16 schema-valid JSON, ≤1 retry, and **zero
 unsafe-direction errors** — the model never reported "clear" while a person was
 visible. Single synthetic scene, N=16 per run: illustrative, **not** statistics.
+
 
 ## Quickstart
 
@@ -85,6 +89,7 @@ python -m src.pipeline --input <your_clip>.mp4 --provider gemini --max-samples 1
 
 Windows + conda one-shot: `scripts\run_gemini_windows.bat`.
 
+
 ## The 3D scene
 
 The demo footage is rendered from a procedurally-built Blender scene
@@ -94,6 +99,7 @@ and a forklift that halts when the alert fires. All external assets are CC0
 (poly.pizza models, Poly Haven PBR textures + HDRI) — see `assets/LICENSES.md`.
 Render it yourself: open the .blend, press Ctrl+F12 (settings are pre-configured),
 then feed the MP4 to the pipeline.
+
 
 ## Repository layout
 

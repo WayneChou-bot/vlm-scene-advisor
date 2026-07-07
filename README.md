@@ -19,7 +19,7 @@ sound the zone alarm), then recovers once the zone is clear.
 
 https://github.com/user-attachments/assets/f9957fb3-e9d5-4e8d-806f-6ab86bbe8871
 
-: the HUD text is real Gemini 2.5 Flash reasoning, with live
+※ the HUD text is real Gemini 2.5 Flash reasoning, with live
 per-frame latency shown on screen (not scripted placeholders).
 
 ## How it works

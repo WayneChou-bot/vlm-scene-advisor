@@ -116,3 +116,8 @@ Built spec-first with an explicit verification protocol: nothing is marked done
 without stating how it was verified, all misjudgments observed in testing landed on
 the conservative side, and detection accuracy remains **unverified** (no labeled
 eval) — which is exactly why this README contains no accuracy numbers.
+
+
+## License
+
+Code is licensed under [Apache-2.0](LICENSE). Third-party 3D assets are CC0 — see [`assets/LICENSES.md`](assets/LICENSES.md).
